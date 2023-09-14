@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Database" targetNamespace="http://tempuri.org/Database.xsd" xmlns:mstns="http://tempuri.org/Database.xsd" xmlns="http://tempuri.org/Database.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Database" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_UserDSName="Database" msprop:Generator_DataSetName="Database">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Nevek" msprop:Generator_RowEvHandlerName="NevekRowChangeEventHandler" msprop:Generator_RowDeletedName="NevekRowDeleted" msprop:Generator_RowDeletingName="NevekRowDeleting" msprop:Generator_RowEvArgName="NevekRowChangeEvent" msprop:Generator_TablePropName="Nevek" msprop:Generator_RowChangedName="NevekRowChanged" msprop:Generator_RowChangingName="NevekRowChanging" msprop:Generator_TableClassName="NevekDataTable" msprop:Generator_RowClassName="NevekRow" msprop:Generator_TableVarName="tableNevek" msprop:Generator_UserTableName="Nevek">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_ColumnVarNameInTable="columnId" msprop:Generator_UserColumnName="Id" type="xs:int" minOccurs="0" />
+              <xs:element name="Nev" msprop:Generator_ColumnPropNameInRow="Nev" msprop:Generator_ColumnPropNameInTable="NevColumn" msprop:Generator_ColumnVarNameInTable="columnNev" msprop:Generator_UserColumnName="Nev" type="xs:string" minOccurs="0" />
+              <xs:element name="Iranyitoszam" msprop:Generator_ColumnPropNameInRow="Iranyitoszam" msprop:Generator_ColumnPropNameInTable="IranyitoszamColumn" msprop:Generator_ColumnVarNameInTable="columnIranyitoszam" msprop:Generator_UserColumnName="Iranyitoszam" type="xs:string" minOccurs="0" />
+              <xs:element name="Varos" msprop:Generator_ColumnPropNameInRow="Varos" msprop:Generator_ColumnPropNameInTable="VarosColumn" msprop:Generator_ColumnVarNameInTable="columnVaros" msprop:Generator_UserColumnName="Varos" type="xs:string" minOccurs="0" />
+              <xs:element name="Cim" msprop:Generator_ColumnPropNameInRow="Cim" msprop:Generator_ColumnPropNameInTable="CimColumn" msprop:Generator_ColumnVarNameInTable="columnCim" msprop:Generator_UserColumnName="Cim" type="xs:string" minOccurs="0" />
+              <xs:element name="Email" msprop:Generator_ColumnPropNameInRow="Email" msprop:Generator_ColumnPropNameInTable="EmailColumn" msprop:Generator_ColumnVarNameInTable="columnEmail" msprop:Generator_UserColumnName="Email" type="xs:string" minOccurs="0" />
+              <xs:element name="Mobilszam" msprop:Generator_ColumnPropNameInRow="Mobilszam" msprop:Generator_ColumnPropNameInTable="MobilszamColumn" msprop:Generator_ColumnVarNameInTable="columnMobilszam" msprop:Generator_UserColumnName="Mobilszam" type="xs:string" minOccurs="0" />
+              <xs:element name="Telefonszam" msprop:Generator_ColumnPropNameInRow="Telefonszam" msprop:Generator_ColumnPropNameInTable="TelefonszamColumn" msprop:Generator_ColumnVarNameInTable="columnTelefonszam" msprop:Generator_UserColumnName="Telefonszam" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

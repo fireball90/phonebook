@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="yes"?>
+<Database xmlns="http://tempuri.org/Database.xsd">
+  <Nevek>
+    <Id>1</Id>
+    <Nev>Jancsurak Bence</Nev>
+    <Iranyitoszam>3426</Iranyitoszam>
+    <Varos>Gesztely</Varos>
+    <Cim>Ady Endre utca 69.
+</Cim>
+    <Email>kyywa@wowoznek.hu</Email>
+    <Mobilszam>+36 20 / 333 6663</Mobilszam>
+    <Telefonszam />
+  </Nevek>
+  <Nevek>
+    <Id>2</Id>
+    <Nev>Norbert Lekner</Nev>
+    <Iranyitoszam>3678</Iranyitoszam>
+    <Varos>Miskolcia</Varos>
+    <Cim>Petőfi tér 69</Cim>
+    <Email>nincs@csoves.hu</Email>
+    <Mobilszam>+36 69 / 420 1234</Mobilszam>
+    <Telefonszam>06 48 / 420 420</Telefonszam>
+  </Nevek>
+</Database>
